@@ -18,7 +18,7 @@ export const ContactForm = () => {
   }
 
   const showSuccess = () => {
-    setSucces("Contact saved")
+    setSuccess("Contact saved")
     setTimeout(() => {
       setSuccess('')
     }, 3000)
